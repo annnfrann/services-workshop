@@ -1,9 +1,9 @@
 <h1>Post a New Message</h1>
 <h3>{{vw.success}}</h3>
-<form class="form-inline">
+<form ng-submit='vw.addMessage(message)' class="form-inline">
   <div class="form-group">
     <label for="message">Message</label>
-    <input type="text" class="form-control" id="message" >
+    <input ng-model="message.text" type="text" class="form-control" id="message" >
   </div>
   <button type="submit" class="btn btn-default">Send Message</button>
 </form>

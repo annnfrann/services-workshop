@@ -55,8 +55,8 @@ The factory has been built for you, you just need to get everything talking.
 
 __This requires two steps similar to previous steps you've taken to wire up new things.__
 
-1. -
-2. -
+1. - add the file as a src in the html file
+2. - use the factory in the controllers
 
 ## Step 3.5: Display the seed message when the use hits the home page.
 
